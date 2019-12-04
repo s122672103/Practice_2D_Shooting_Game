@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 535656286}
   m_Layer: 0
   m_Name: "\u9ED1\u8272\u7684\u4E0D\u660E\u751F\u7269"
-  m_TagString: Untagged
+  m_TagString: "\u5B50\u5F48"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -479,10 +479,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad78aaa5e4892c34c960add0a108dafb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 10
-  textHp: {fileID: 235324645}
+  Hp: 10
+  TextHp: {fileID: 235324645}
   aud: {fileID: 535656286}
-  soundHit: {fileID: 8300000, guid: 0bda53c42232dad41a2a79b16daf8b10, type: 3}
+  SoundHit: {fileID: 8300000, guid: 0bda53c42232dad41a2a79b16daf8b10, type: 3}
 --- !u!82 &535656286
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1204,7 +1204,7 @@ MonoBehaviour:
   bullet: {fileID: 4188934032714802657, guid: 8058be627f9654545a83c5749037a195, type: 3}
   point: {fileID: 1212127335}
   aud: {fileID: 2129298586}
-  soundShoot: {fileID: 8300000, guid: e9552f51221d8f04999e786243374ffe, type: 3}
+  ShootSound: {fileID: 8300000, guid: e9552f51221d8f04999e786243374ffe, type: 3}
   speed: 30
 --- !u!82 &2129298586
 AudioSource:
